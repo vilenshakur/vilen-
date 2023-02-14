@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/NADO.css" />
+  </head>
+  <body>
+    <a href="./index.html">
+      /\/ \/\ <br />
+      /^-^\</a
+    >
+    <form action="#" class="myform">
+      <h2>Форма</h2>
+      <div class="imput_group">
+        <label for="username">Ник</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Attila LOX?"
+        />
+      </div>
+      <div class="imput_group">
+        <label for="password">Пароль</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="введите пароль"
+        />
+      </div>
+      <div class="imput_group">
+        <label for="about_me"> обо мне</label>
+        <textarea
+          name="about_me"
+          id="about_me"
+          cols="40"
+          rows="10"
+          placeholder="о себе"
+        ></textarea>
+      </div>
+      <div class="imput_group">
+        <label for="gender"> пол</label>
+        <div class="input_group_wrapper">
+          <div class="imput_inner">
+            <input type="radio" name="gender" id="g1" value="male" />
+            <label for="g1"> мужчина</label>
+          </div>
+          <div class="imput_inner">
+            <input type="radio" name="gender" id="g1" value="female" />
+            <label for="g1"> женщина</label>
+          </div>
+          <div class="imput_group">
+            <label for="ch1">какой язык?</label>
+            <div class="imput_group_wrapper">
+              <div class="imput_inner">
+                <input type="checkbox" name="sirshavyi" id="sirshavyi" />
+                <label for="sirshavyi">HТМL</label>
+              </div>
+              <div class="imput_inner">
+                <input type="checkbox" name="russkii" id="russkii" />
+                <label for="russkii"> русский</label>
+              </div>
+              <div class="imput_inner">
+                <input type="checkbox" name="neznay" id="neznay" />
+                <label for="neznay"> не знаю</label>
+              </div>
+            </div>
+            <div class="imput_group">
+              <label for="city"> выбери город</label>
+              <select name="city" id="city" size="1">
+                <option selected value="Almaty">Алматы</option>
+                <option value="Piter">Питер</option>
+                <option value="Astana">Астана</option>
+                <option value="Bishkek">Бишкек</option>
+                <option value="neskazy">не скажу</option>
+              </select>
+            </div>
+            <div class="imput_group">
+              <button class="cta_button">отправить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

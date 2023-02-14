@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Comfortaa:wght@600&family=Cormorant+Garamond:ital,wght@1,300&family=Fragment+Mono&family=Island+Moments&family=Kenia&family=Lato:wght@300&family=Lobster&family=Merriweather:ital,wght@1,900&family=Montserrat:ital,wght@1,100&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@600&family=Roboto&family=Roboto+Condensed&family=Roboto+Slab&family=Russo+One&family=Source+Sans+Pro:wght@300&family=Ubuntu:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Caveat", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(17, 0, 112, 0.2);
+}
+
+.myform {
+  padding: 25px 60px;
+  background-color: #fff;
+}
+
+.myform h2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 1px solid #06b64f;
+}
+.imput_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.imput_group label {
+  color: #666;
+  padding: 10px;
+  font-size: 14px;
+}
+.imput_group input,
+.imput_group textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #090a49;
+  font-size: 18px;
+  resize: none;
+}
+.imput_group input::placeholder,
+.imput_group textarea::placeholder {
+  color: #949494;
+}
+.imput_group_wrapper {
+  border: 1px solid #674dff;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+.imput_group input[type="checkbox"],
+.imput_group input[type="radio"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  cursor: pointer;
+}
+.imput_inner label {
+  font-size: 18px;
+  padding: 15px;
+}
+.imput_inner {
+  display: flex;
+  align-items: center;
+}
+.imput_group input[type="radio"] {
+  border-radius: 100px;
+  padding: 10px;
+}
+.imput_group input[type="checkbox"]:checked,
+.imput_group input[type="radio"]:checked {
+  background-color: #2b20c7;
+}
+.imput_group input[type="checkbox"]:checked {
+  position: relative;
+}
+.imput_group input[type="checkbox"]::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+}
+.imput_group select {
+  padding: 15px;
+  border: 1px solid #77a6e4;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.imput_group input[type="submit"] {
+  color: #fff;
+  background-color: #e477df;
+  transition: 300ms;
+  cursor: pointer;
+}
+.imput_group input[type="submit"]:hover {
+  color: #e477d5;
+  background-color: #fff;
+}
+.cta_button {
+  padding: 20px 60px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(4, 0, 255);
+  color: #000;
+  cursor: grab;
+  transition: all 1000ms;
+}
+
+.cta_button:hover {
+  background-color: #000;
+  color: rgb(51, 255, 0);
+  border: 1px solid rgb(0, 255, 234);
+}
